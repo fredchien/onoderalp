@@ -1,0 +1,17 @@
+{
+  "name": "onoderalp",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "Frederic Chien"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/fredchien/onoderalp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
