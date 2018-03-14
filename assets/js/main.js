@@ -12,15 +12,6 @@ $(document).ready(function() {
         windowResize();
     });
 
-
-
-    // menu toggle
-
-    $("#menu-toggle").click(function(e){
-        e.preventDefault();
-        $("#header").toggleClass('open');
-    });
-
     
     // ajusta imagens as figures
     $("figure.fit").each(function(){
@@ -31,38 +22,37 @@ $(document).ready(function() {
         }
     });
 
-     jQuery(window).scroll(function() {
-        if (jQuery(this).scrollTop() > 50) {
-            jQuery("header").addClass('top-fixed');
-        } else {
-         jQuery("header").removeClass('top-fixed');
-     }
-
-    });
-
-      // carrossel banner home
-    $("#home-banner-carousel").owlCarousel({
-        items: 1,
-        nav: true,
-        dots: false,
-        navText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>'],
-        loop: true,
-
-        responsive: {
-            0: { items: 1, },
-            450: { items: 1, },
-            768: { items: 1, },
-            992: { items: 1, },
-        },
-    });
+    
     $('.jarallax').jarallax({
         speed: 0.2
     });
-    $( ".wrapbox" ).click(function() {
-        if( $(this).hasClass('aparecer')){
-            $(this).removeClass('aparecer', {duration:500});
-        }else{
-            $(this).addClass('aparecer', {duration:500});
-        }
+    $('.myDiv').boxLoader({
+        direction:"y",
+        position: "100%",
+        effect: "fadeIn",
+        duration: "1s",
+        windowarea: "50%"
+    });
+    $('a[href^="#"]').bind("click.smoothscroll", function(n) {
+        n.preventDefault();
+        var i = $(window).scrollTop(),
+        r = this.hash,
+        t = $(r);
+        i < 100 ? $("html, body").animate({
+            scrollTop: t.offset().top -120 
+        }, 1e3) : $("html, body").animate({
+            scrollTop: t.offset().top -120  
+        }, 1e3)
+    });
+    // Place any jQuery/helper plugins in here.
+    var movementStrength = 25;
+    var height = movementStrength / $(window).height();
+    var width = movementStrength / $(window).width();
+    $(".top-banner").mousemove(function(e){
+              var pageX = e.pageX - ($(window).width() / 2);
+              var pageY = e.pageY - ($(window).height() / 2);
+              var newvalueX = width * pageX * -1 - 25;
+              var newvalueY = height * pageY * -1 - 50;
+              $('.top-banner').css("background-position", newvalueX+"px     "+newvalueY+"px");
     });
 });

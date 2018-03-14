@@ -84,113 +84,59 @@ figure.fit { background-repeat: no-repeat; background-position: center center; b
 
 .btn-verde { background: #0ca614; border-radius: 10px; color: #fff; text-transform: uppercase; border: none; padding: 10px 20px; }
 
-/******************** BANNER ********************/
-.top-banner { height: 100%; height: 55vh; overflow: hidden; }
+.btn-verde:hover { background: #ff0064; color: #fff; }
 
-.top-banner img { position: absolute; left: 25%; margin-left: -50px; }
+/**************** INICIO POWERSHAPE ****************/
+/******************** BANNER ********************/
+.top-banner img { max-width: 100%; height: auto; }
+
+.top-banner .btn-verde { position: relative; top: -120px; left: 31%; }
 
 /******************** SESSAO 1 ********************/
-.sessao-1 { background: #b80455; }
+.powershape-sessao-1 { background: #b80455; }
 
-.sessao-1 h2 { font-size: 30px; color: #fff; text-align: center; }
+.powershape-sessao-1 h2 { font-size: 30px; color: #fff; text-align: center; }
 
 /******************** SESSAO 2 ********************/
-.sessao-2 { text-align: center; background: #f2edec; }
+.powershape-sessao-2 { text-align: center; background: #f2edec; }
 
-.sessao-2 h2 { font-size: 38px; color: #b80455; margin-bottom: 40px; }
+.powershape-sessao-2 h2 { font-size: 38px; color: #b80455; margin-bottom: 40px; }
 
-.sessao-2 p { padding-bottom: 25px; }
+.powershape-sessao-2 p { padding-bottom: 25px; }
 
 /******************** SESSAO 3 ********************/
-.sessao-3 { text-align: center; padding-top: 50px; padding-bottom: 50px; }
+.powershape-sessao-3 { text-align: center; padding-top: 50px; padding-bottom: 50px; }
 
-.sessao-3 h2 { font-size: 38px; color: #ff0064; margin-bottom: 60px; }
+.powershape-sessao-3 h2 { font-size: 38px; color: #ff0064; margin-bottom: 60px; }
 
-.sessao-3 img { height: 140px; }
+.powershape-sessao-3 img { height: 140px; }
 
-.sessao-3 figcaption { margin-top: 40px; color: #ff0064; }
+.powershape-sessao-3 figcaption { margin-top: 40px; color: #ff0064; }
 
-.sessao-3 .btn-verde { margin-top: 60px; font-size: 20px; }
+.powershape-sessao-3 .btn-verde { margin-top: 60px; font-size: 20px; }
 
+/******************** SESSAO 4 ********************/
+.powershape-sessao-4 { text-align: center; padding-top: 50px; padding-bottom: 50px; }
+
+.powershape-sessao-4 h2 { font-size: 38px; color: #ff0064; margin-bottom: 60px; }
+
+.powershape-sessao-4 img { height: 140px; }
+
+.powershape-sessao-4 figcaption { margin-top: 40px; color: #ff0064; }
+
+.powershape-sessao-4 .btn-verde { margin-top: 20px; font-size: 20px; }
+
+/**************** FIM POWERSHAPE ****************/
 /******************** FOOTER ********************/
-.pre-footer { background-color: #00ded5; padding: 15px; position: relative; }
+.powershape-footer { text-align: center; padding: 5px; font-size: 13px; background: #202020; }
 
-.pre-footer img { max-width: 100%; margin-top: 20px; }
-
-.pre-footer .menu-footer { margin-top: 50px; }
-
-.pre-footer .menu-footer li { list-style: none; display: inline-block; margin-left: 13px; }
-
-.pre-footer .menu-footer li .fa-circle { color: #666666; }
-
-.pre-footer .menu-footer li .fa-inverse { color: #00ded5; }
-
-.pre-footer .menu-footer li a { color: #666666; text-transform: uppercase; font-size: 14px; }
-
-footer { text-align: center; padding: 5px; font-size: 13px; }
-
-@media (min-width: 768px) { #header.top-fixed { box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1); background: #00ded5; border-bottom: none; }
-  #header.top-fixed .navbar-brand { padding: 15px 0; }
-  #header.top-fixed .navbar-brand img { width: 200px; }
-  #header.top-fixed #menu ul > li > a { padding-top: 28px; padding-bottom: 20px; }
-  #header.top-fixed a:hover { color: #fff !important; } }
-
-#header.open .navbar-header #menu-toggle .icon-bars { background: transparent !important; }
-
-#header.open .navbar-header #menu-toggle .icon-bars:before { top: 0; transform: rotate(45deg); transition-delay: 0s, .3s; }
-
-#header.open .navbar-header #menu-toggle .icon-bars:after { bottom: 0; transform: rotate(-45deg); transition-delay: 0s, .3s; }
+.powershape-footer p { color: #fff; }
 
 /******************** RESPONSIVO ********************/
 @media (max-width: 767px) { /***** BASE *****/
-  body { padding-top: 70px; }
   h1 { font-size: 42px; }
   h2 { font-size: 36px; }
   h3 { font-size: 28px; }
-  h6 { font-size: 16px; }
-  /***** HEADER *****/
-  #header { box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1); background: #00ded5; }
-  #header .navbar-brand { padding: 0 0; margin-left: 15px; }
-  #header .navbar-brand img { height: 70px; width: 60%; padding: 10px; }
-  #header #menu { background: #00ded5; border-top: solid 5px #fff; float: none; position: fixed; top: 70px; left: 100%; bottom: 0; width: 100%; transition: left .6s ease-in-out, top .4s ease-in-out; display: flex; align-items: center; justify-content: center; }
-  #header #menu ul { width: 100%; padding: 0; }
-  #header #menu ul > li { float: none; margin: 0; }
-  #header #menu ul > li:nth-child(5) { margin-right: 0; }
-  #header #menu ul > li > a { padding: 8px 15px; margin-bottom: 2px; margin-left: 0; }
-  #header #menu ul > li > a:after { content: none; }
-  #header #menu ul > li > a:before { content: ''; display: block; position: absolute; top: 50%; left: 0; height: 20px; border-left: 14px solid #fff; transform: translateY(-50%); }
-  #header #menu ul > li:last-child > a { margin-bottom: 0; }
-  #header.open #menu { left: 0%; }
-  .sessao-video-home h2 { width: 75%; }
-  .sessao-video-home h3 { width: 65%; }
-  .news-home h2 { width: 45%; }
-  .instagram-home h2 { width: 45%; }
-  .news-page h2 { width: 45%; }
-  .cases-page h2 { width: 45%; }
-  .contato-page h2 { width: 45%; }
-  .especialidade-page h2 { width: 45%; }
-  .sobre-page h2 { width: 45%; }
-  .pre-footer { text-align: center; }
-  .pre-footer .menu-footer { padding: 0; }
-  .pre-footer .menu-footer li { margin-left: 0; display: block; }
-  .contato-page .btn-newlife:after { left: 50px; } }
-
-@media (min-width: 768px) and (max-width: 991px) { /***** HEADER *****/
-  #header .navbar-brand { padding: 25px 0; }
-  #header .navbar-brand img { height: 36px; }
-  #header #menu ul { font-size: 14px; }
-  #header #menu ul > li > a { padding: 28px 12px; } }
-
-@media (min-width: 768px) and (max-width: 1200px) { .sessao-video-home h2 { width: 75%; }
-  .sessao-video-home h3 { width: 65%; }
-  .news-home h2 { width: 45%; }
-  .instagram-home h2 { width: 45%; }
-  .pre-footer { text-align: center; }
-  .pre-footer .menu-footer { padding: 0; }
-  .pre-footer .menu-footer li { margin-left: 0; display: block; }
-  #header #menu ul > li > a { padding: 28px 3px; }
-  #header #menu ul > li > a { font-size: 12px; }
-  #header #menu ul > li:nth-child(5) { margin-right: 0; }
-  #header #menu .logo { position: absolute; left: 0px; bottom: -20px; } }
+  h6 { font-size: 16px; } }
 
 /*# sourceMappingURL=style.css.map */
