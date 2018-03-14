@@ -168,11 +168,12 @@ figure.fit {
 
 .btn-verde{
   background: #0ca614;
-  border-radius: 10px;
+  border-radius: 20px;
   color: $white;
   text-transform: uppercase;
   border: none;
   padding: 10px 20px;
+  font-size: 20px;
   &:hover{
     background: $RosaClaro;
     color: $white;
@@ -190,7 +191,7 @@ figure.fit {
   }
   .btn-verde{
     position: relative;
-    top: -120px;
+    top: -200px;
     left: 31%;
   }
 }
@@ -263,8 +264,6 @@ figure.fit {
   }
 }
 
-/**************** FIM POWERSHAPE ****************/
-
 /******************** FOOTER ********************/
 .powershape-footer{
   text-align: center;
@@ -275,6 +274,477 @@ figure.fit {
     color: $white;
   }
 }
+
+/**************** FIM POWERSHAPE ****************/
+
+/**************** INICIO shock ****************/
+
+/******************** BANNER ********************/
+
+.top-banner { 
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+  .btn-verde{
+    position: relative;
+    top: -200px;
+    left: 31%;
+  }
+}
+
+/******************** SESSAO 1 ********************/
+.shock-sessao-1{
+  background: $Rosa;
+  h2{
+    font-size: 30px;
+    color: $white;
+    text-align: center;
+  }
+}
+/******************** SESSAO 2 ********************/
+.shock-sessao-2{
+  text-align: center;
+  background: $Cinza;
+  h2{
+    font-size: 38px;
+    color: $Rosa;
+    margin-bottom: 40px;
+  }
+  p{
+    padding-bottom: 25px;
+  }
+  .btn-verde{
+    margin-top: 40px;
+  }
+}
+/******************** SESSAO 3 ********************/
+.shock-sessao-3{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  h2{
+    font-size: 38px;
+    color: $Rosa;
+    margin-bottom: 60px;
+  }
+  .btn-verde{
+    margin-top: 60px;
+    font-size: 20px;
+  }
+  .boxshock{
+    border: solid 3px $Rosa;
+    padding: 60px;
+  }
+  ul{
+    li{
+      text-align: left;
+      list-style: none;
+      color: $Rosa;
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      &:before{
+        content: url('assets/img/shockwave/label.png');
+        margin-right: 15px;
+        position: relative;
+        top: 5px;
+      }
+    }
+  }
+}
+
+/******************** SESSAO 4 ********************/
+.shock-sessao-4{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  h2{
+    font-size: 38px;
+    color: $Rosa;
+    margin-bottom: 60px;
+  }
+  .btn-verde{
+    margin-top: 20px;
+    font-size: 20px;
+  }
+}
+
+/******************** FOOTER ********************/
+.shock-footer{
+  text-align: center;
+  padding: 5px;
+  font-size: 13px;
+  background: rgb(32, 32, 32);
+  p{
+    color: $white;
+  }
+}
+
+/**************** FIM shock ****************/
+
+
+/**************** INICIO crio ****************/
+
+/******************** BANNER ********************/
+
+.top-banner { 
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+  .btn-verde{
+    position: relative;
+    top: -200px;
+    left: 31%;
+  }
+}
+
+/******************** SESSAO 1 ********************/
+.crio-sessao-1{
+  background: $white;
+  h2{
+    font-size: 30px;
+    color: #777777;
+    text-align: center;
+  }
+}
+/******************** SESSAO 2 ********************/
+.crio-sessao-2{
+  text-align: center;
+  background: $Rosa;
+  h2{
+    font-size: 38px;
+    color: $white;
+    margin-bottom: 40px;
+  }
+  p{
+    color: $white;
+    padding-bottom: 25px;
+  }
+  .btn-verde{
+    margin-top: 30px;
+    font-size: 20px;
+  }
+}
+/******************** SESSAO 3 ********************/
+.crio-sessao-3{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: $white;
+  h2{
+    font-size: 30px;
+    color: $Rosa;
+    margin-bottom: 60px;
+  }
+  .btn-verde{
+    margin-top: 60px;
+    font-size: 20px;
+  }
+  .box-crio{
+    border: solid 3px $Rosa;
+    padding: 60px;
+    margin-bottom: 10px;
+  }
+  ul{
+    li{
+      text-align: left;
+      list-style: none;
+      color: $Rosa;
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      &:before{
+        content: url('assets/img/criofrequencia/label.png');
+        margin-right: 15px;
+        position: relative;
+      }
+    }
+  }
+}
+
+/******************** SESSAO 4 ********************/
+.crio-sessao-4{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  h2{
+    font-size: 38px;
+    color: $Rosa;
+    margin-bottom: 60px;
+  }
+  .btn-verde{
+    margin-top: 20px;
+    font-size: 20px;
+  }
+}
+/******************** SESSAO 5 ********************/
+.crio-sessao-5{
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  background: #f5f7e1;
+  h2{
+    font-size: 50px;
+    color: $Rosa;
+    margin-bottom: 60px;
+  }
+  span{
+    color: $Rosa;
+    font-size: 30px;
+  }
+}
+
+/******************** FOOTER ********************/
+.crio-footer{
+  text-align: center;
+  padding: 5px;
+  font-size: 13px;
+  background: rgb(32, 32, 32);
+  p{
+    color: $white;
+  }
+}
+
+/**************** FIM crio ****************/
+
+/**************** INICIO ono ****************/
+
+/******************** BANNER ********************/
+
+.top-banner { 
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+  .btn-verde{
+    position: relative;
+    top: -200px;
+    left: 31%;
+  }
+}
+
+/******************** SESSAO 1 ********************/
+.ono-sessao-1{
+  background: $white;
+  p{
+    text-align: center;
+  }
+  h2{
+    font-size: 30px;
+    color: $RosaClaro;
+    text-align: center;
+    font-weight: 300;
+  }
+}
+/******************** SESSAO 2 ********************/
+.ono-sessao-2{
+  text-align: center;
+  background: #d03770;
+  h2{
+    font-size: 38px;
+    color: $white;
+    margin-bottom: 40px;
+  }
+  p{
+    color: $white;
+    padding-bottom: 25px;
+  }
+  .btn-verde{
+    margin-top: 30px;
+    font-size: 20px;
+  }
+}
+/******************** SESSAO 3 ********************/
+.ono-sessao-3{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: $white;
+  h2{
+    font-size: 30px;
+    color: $Rosa;
+    margin-bottom: 60px;
+  }
+  .btn-verde{
+    margin-top: 60px;
+    font-size: 20px;
+  }
+  img{
+    margin-bottom: 40px;
+  }
+}
+
+/******************** SESSAO 4 ********************/
+.ono-sessao-4{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  h2{
+    font-size: 38px;
+    color: $Rosa;
+    margin-bottom: 60px;
+  }
+  .btn-verde{
+    margin-top: 20px;
+    font-size: 20px;
+  }
+}
+/******************** SESSAO 5 ********************/
+.ono-sessao-5{
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  h2{
+    font-size: 30px;
+    color: $Rosa;
+    margin-bottom: 60px;
+  }
+  figcaption{
+    font-size: 17px;
+    font-weight: 100;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+}
+
+/******************** FOOTER ********************/
+.ono-footer{
+  text-align: center;
+  padding: 5px;
+  font-size: 13px;
+  background: rgb(32, 32, 32);
+  p{
+    color: $white;
+  }
+}
+
+/**************** INICIO trilipo ****************/
+
+/******************** BANNER ********************/
+
+.top-banner { 
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+  .btn-verde{
+    position: relative;
+    top: -200px;
+    left: 31%;
+  }
+}
+
+/******************** SESSAO 1 ********************/
+.trilipo-sessao-1{
+  background: #a2006b;
+  h2{
+    font-size: 30px;
+    color: $white;
+    text-align: center;
+  }
+}
+/******************** SESSAO 2 ********************/
+.trilipo-sessao-2{
+  text-align: center;
+  background: $Cinza;
+  h2{
+    font-size: 38px;
+    color: $Rosa;
+    margin-bottom: 40px;
+  }
+  p{
+    padding-bottom: 25px;
+  }
+  .btn-verde{
+    margin-top: 40px;
+  }
+}
+/******************** SESSAO 3 ********************/
+.trilipo-sessao-3{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #e4e4e4;
+  h2{
+    font-size: 38px;
+    color: $Rosa;
+    margin-bottom: 60px;
+  }
+  .btn-verde{
+    margin-top: 60px;
+    font-size: 20px;
+  }
+  .boxshock{
+    border: solid 3px $Rosa;
+    padding: 60px;
+  }
+  ul{
+    li{
+      text-align: left;
+      list-style: none;
+      color: $Rosa;
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      &:before{
+        content: url('assets/img/shockwave/label.png');
+        margin-right: 15px;
+        position: relative;
+        top: 5px;
+      }
+    }
+  }
+}
+
+/******************** SESSAO 4 ********************/
+.trilipo-sessao-4{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  h2{
+    font-size: 38px;
+    color: $Rosa;
+    margin-bottom: 60px;
+  }
+  .btn-verde{
+    margin-top: 20px;
+    font-size: 20px;
+  }
+}
+/******************** SESSAO 5 ********************/
+.trilipo-sessao-5{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: $white;
+  h2{
+    font-size: 38px;
+    color: $Rosa;
+    margin-bottom: 60px;
+  }
+  figcaption{
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 25px;
+  }
+}
+
+
+/******************** FOOTER ********************/
+.trilipo-footer{
+  text-align: center;
+  padding: 5px;
+  font-size: 13px;
+  background: rgb(32, 32, 32);
+  p{
+    color: $white;
+  }
+}
+
+/**************** FIM trilipo ****************/
+
 
 /******************** RESPONSIVO ********************/
 
