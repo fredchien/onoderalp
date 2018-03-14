@@ -1,41 +1,41 @@
 /******************** FONTS ********************/
 /*** PLUTO ***/
 /* Light */
-@font-face { font-family: 'Pluto'; src: url("../fonts/pluto/PlutoLight.otf"); font-weight: 300; font-style: normal; }
+@font-face { font-family: 'Pluto'; src: url("assets/fonts/pluto/PlutoLight.otf"); font-weight: 300; font-style: normal; }
 
 /* Regular */
-@font-face { font-family: 'Pluto'; src: url("../fonts/pluto/PlutoRegular.otf"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Pluto'; src: url("assets/fonts/pluto/PlutoRegular.otf"); font-weight: normal; font-style: normal; }
 
 /* Medium */
-@font-face { font-family: 'Pluto'; src: url("../fonts/pluto/PlutoMedium.otf"); font-weight: 500; font-style: normal; }
+@font-face { font-family: 'Pluto'; src: url("assets/fonts/pluto/PlutoMedium.otf"); font-weight: 500; font-style: normal; }
 
 /* Bold */
-@font-face { font-family: 'Pluto'; src: url("../fonts/pluto/PlutoBold.otf"); font-weight: 600; font-style: normal; }
+@font-face { font-family: 'Pluto'; src: url("assets/fonts/pluto/PlutoBold.otf"); font-weight: 600; font-style: normal; }
 
 /* Black */
-@font-face { font-family: 'Pluto'; src: url("../fonts/pluto/PlutoBlack.otf"); font-weight: 800; font-style: normal; }
+@font-face { font-family: 'Pluto'; src: url("assets/fonts/pluto/PlutoBlack.otf"); font-weight: 800; font-style: normal; }
 
 /*** PLUTO SANS ***/
 /* Regular */
-@font-face { font-family: 'Pluto Sans'; src: url("../fonts/plutosans/PlutoSansRegular.otf"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Pluto Sans'; src: url("assets/fonts/plutosans/PlutoSansRegular.otf"); font-weight: normal; font-style: normal; }
 
 /* Bold */
-@font-face { font-family: 'Pluto Sans'; src: url("../fonts/plutosans/PlutoSansBold.otf"); font-weight: 600; font-style: normal; }
+@font-face { font-family: 'Pluto Sans'; src: url("assets/fonts/plutosans/PlutoSansBold.otf"); font-weight: 600; font-style: normal; }
 
 /*** PLUTO SANS COND ***/
-@font-face { font-family: 'Pluto Sans Cond'; src: url("../fonts/plutosans/PlutoSansCondLight.otf"); font-weight: 300; font-style: normal; }
+@font-face { font-family: 'Pluto Sans Cond'; src: url("assets/fonts/plutosans/PlutoSansCondLight.otf"); font-weight: 300; font-style: normal; }
 
-@font-face { font-family: 'Pluto Sans Cond'; src: url("../fonts/plutosans/PlutoSansCondRegular.otf"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Pluto Sans Cond'; src: url("assets/fonts/plutosans/PlutoSansCondRegular.otf"); font-weight: normal; font-style: normal; }
 
-@font-face { font-family: 'Pluto Sans Cond'; src: url("../fonts/plutosans/PlutoSansCondBold.otf"); font-weight: 600; font-style: normal; }
+@font-face { font-family: 'Pluto Sans Cond'; src: url("assets/fonts/plutosans/PlutoSansCondBold.otf"); font-weight: 600; font-style: normal; }
 
 /******************** VARS ********************/
 /******************** BASE ********************/
 * { outline: transparent; }
 
-html, body { color: #333333; min-width: 320px; font-family: "Raleway", sans-serif; font-size: 16px; }
+html, body { color: #666666; min-width: 320px; font-family: "Pluto"; font-size: 16px; }
 
-h1, h2, h3, h4, h5, h6 { font-family: "Raleway", sans-serif; margin-bottom: 30px; margin-top: 0; font-weight: 800; }
+h1, h2, h3, h4, h5, h6 { font-family: "Pluto"; margin-bottom: 30px; margin-top: 0; font-weight: 800; }
 
 h1 { font-size: 60px; }
 
@@ -45,11 +45,11 @@ h3 { font-size: 36px; }
 
 h6 { font-size: 16px; }
 
-a { color: #333333; text-decoration: none !important; transition: color .2s ease-in-out, background .2s ease-in-out; }
+a { color: #666666; text-decoration: none !important; transition: color .2s ease-in-out, background .2s ease-in-out; }
 
 a:hover { color: #00ded5; }
 
-p { line-height: 25px; font-family: "Raleway", sans-serif; font-weight: 300; }
+p { line-height: 25px; font-family: "Pluto"; font-weight: 300; }
 
 p:last-child { margin-bottom: 0; }
 
@@ -82,12 +82,35 @@ figure.fit { background-repeat: no-repeat; background-position: center center; b
 
 .no-padding { padding: 0 !important; }
 
+.btn-verde { background: #0ca614; border-radius: 10px; color: #fff; text-transform: uppercase; border: none; padding: 10px 20px; }
+
 /******************** BANNER ********************/
-.top-banner { height: 100%; height: 80vh; background-attachment: fixed; }
+.top-banner { height: 100%; height: 55vh; overflow: hidden; }
 
-.top-banner-page { height: 100%; height: 45vh; background-attachment: fixed; }
+.top-banner img { position: absolute; left: 25%; margin-left: -50px; }
 
-.top-banner-page:before { content: ''; background: rgba(0, 222, 213, 0.3); position: absolute; top: 0; width: 100%; height: 100%; transform-origin: top; }
+/******************** SESSAO 1 ********************/
+.sessao-1 { background: #b80455; }
+
+.sessao-1 h2 { font-size: 30px; color: #fff; text-align: center; }
+
+/******************** SESSAO 2 ********************/
+.sessao-2 { text-align: center; background: #f2edec; }
+
+.sessao-2 h2 { font-size: 38px; color: #b80455; margin-bottom: 40px; }
+
+.sessao-2 p { padding-bottom: 25px; }
+
+/******************** SESSAO 3 ********************/
+.sessao-3 { text-align: center; padding-top: 50px; padding-bottom: 50px; }
+
+.sessao-3 h2 { font-size: 38px; color: #ff0064; margin-bottom: 60px; }
+
+.sessao-3 img { height: 140px; }
+
+.sessao-3 figcaption { margin-top: 40px; color: #ff0064; }
+
+.sessao-3 .btn-verde { margin-top: 60px; font-size: 20px; }
 
 /******************** FOOTER ********************/
 .pre-footer { background-color: #00ded5; padding: 15px; position: relative; }
@@ -98,11 +121,11 @@ figure.fit { background-repeat: no-repeat; background-position: center center; b
 
 .pre-footer .menu-footer li { list-style: none; display: inline-block; margin-left: 13px; }
 
-.pre-footer .menu-footer li .fa-circle { color: #333333; }
+.pre-footer .menu-footer li .fa-circle { color: #666666; }
 
 .pre-footer .menu-footer li .fa-inverse { color: #00ded5; }
 
-.pre-footer .menu-footer li a { color: #333333; text-transform: uppercase; font-size: 14px; }
+.pre-footer .menu-footer li a { color: #666666; text-transform: uppercase; font-size: 14px; }
 
 footer { text-align: center; padding: 5px; font-size: 13px; }
 
