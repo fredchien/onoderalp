@@ -334,11 +334,29 @@ figure.fit { background-repeat: no-repeat; background-position: center center; b
 .trilipo-footer p { color: #fff; }
 
 /**************** FIM trilipo ****************/
+/**************** INICIO sucesso ****************/
+.sucesso-body { height: 100%; background: url(assets/img/sucesso/fundo.png) no-repeat center top; background-size: cover; }
+
+.sucesso-sessao-1 { height: 100%; }
+
+.sucesso-sessao-2 { height: 100%; }
+
+.sucesso-sessao-2 .boxobrigado { border: solid 2px white; padding: 13px; margin-top: 110px; }
+
+.sucesso-sessao-2 .boxobrigado h2 { margin-bottom: 0; text-align: center; color: white; text-transform: uppercase; }
+
+.sucesso-sessao-2 p { color: #fff; margin-top: 10px; }
+
+.sucesso-footer { background: #000; position: absolute; bottom: 0; width: 100%; color: #fff; padding-top: 20px; font-size: 12px; }
+
+/**************** FIM sucesso ****************/
 /******************** RESPONSIVO ********************/
 @media (max-width: 767px) { /***** BASE *****/
   h1 { font-size: 42px; }
   h2 { font-size: 36px; }
   h3 { font-size: 28px; }
-  h6 { font-size: 16px; } }
+  h6 { font-size: 16px; }
+  .sucesso-footer { text-align: center !important; }
+  .sucesso-body { background-size: auto; } }
 
 /*# sourceMappingURL=style.css.map */
